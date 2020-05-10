@@ -11,7 +11,7 @@ public class Main {
 
         Connection connection;
 //        String url = "jdbc:sqlite:log.db";
-        String url = "jdbc:postgresql://localhost:5432/{tableName}";
+        String url = "jdbc:postgresql://localhost:5432/{databaseName}";
 
         String login = "";
         String password = "";
